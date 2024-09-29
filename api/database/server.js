@@ -5,6 +5,8 @@ require('dotenv').config();
 
 const app = express();
 
+app.use(express.json());
+
 // Middleware para permitir CORS
 app.use(cors({
     origin: '*',
