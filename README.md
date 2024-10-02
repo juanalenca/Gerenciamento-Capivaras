@@ -97,8 +97,9 @@ Dentro do diretório api/, execute o seguinte comando para construir a imagem e 
 ```bash
 docker-compose up --build
 ```
-<br>
 Isso criará e iniciará o container com a API e o MySQL.
+<br>
+<br><br>
 
 ### 3. Configuração do Frontend (React)
 Você pode executar o frontend de duas maneiras: usando Docker ou Node.js diretamente.
