@@ -57,9 +57,9 @@ Gerenciamento-Capivaras/
 ## 📋 Requisitos
 Antes de começar, certifique-se de ter instalado em sua máquina:
 
-- **Node.js** (v14 ou superior)
-- **Docker**
-- **Docker Compose**
+- [**Node.js**](https://nodejs.org/) (v14 ou superior)
+- [**Docker**](https://www.docker.com/)
+- [**Docker Compose**](https://docs.docker.com/compose/)
 <br><br><br>
 
 
@@ -124,9 +124,8 @@ npm start
 <br>
 
 ### 4. Acessar a aplicação
-- Abra o navegador e acesse o frontend: http://localhost:3000.
-- A API estará rodando no endpoint: http://localhost:5000.
-Você poderá adicionar, editar e remover capivaras pela interface da aplicação.<br>
+- Abra o navegador e acesse o frontend: [http://localhost:3000](http://localhost:3000).
+- A API estará rodando no endpoint: [http://localhost:5000](http://localhost:5000).
 <br>
 
 ### 5. Testar a Aplicação
@@ -189,19 +188,19 @@ volumes:
 ## 🌐 Tecnologias Utilizadas
 
 ### Backend:
-- Node.js
-- Express
-- MySQL
-- Docker (para containerização)
-- Docker Compose (para orquestração)
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [MySQL](https://www.mysql.com/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
 ### Frontend:
-- React
-- TailwindCSS (para estilização)
-- React-Icons (para ícones)
-- React-Loader-Spinner (para animações de carregamento)
-- React-Transition-Group (para animações)
+- [React](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React-Icons](https://react-icons.github.io/react-icons/)
+- [React-Loader-Spinner](https://www.npmjs.com/package/react-loader-spinner)
+- [React-Transition-Group](http://reactcommunity.org/react-transition-group/)
 <br><br><br>
 
 ## 🤝 Contribuição
-Sinta-se à vontade para abrir issues ou pull requests no repositório! Qualquer feedback ou sugestão é bem-vindo.
+Sinta-se à vontade para abrir **issues** ou **pull requests** no repositório! Qualquer feedback ou sugestão é bem-vindo.
