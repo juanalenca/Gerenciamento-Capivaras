@@ -18,7 +18,7 @@ export const addCapivara = async (capivara) => {
         const responseBody = await response.text(); // Obtém o corpo da resposta
 
         try {
-            const json = JSON.parse(responseBody);  // Tenta converter para JSON
+            const json = JSON.parse(responseBody);  
             if (!response.ok) {
                 throw new Error(json.error || 'Erro na requisição ao servidor');
             }
@@ -37,7 +37,7 @@ export const updateCapivara = async (id, capivara) => {
     const response = await fetch(`${API_URL}/${id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(capivara),  // Certifique-se de que o objeto capivara está sendo convertido para JSON
+        body: JSON.stringify(capivara),  
     });
 
     if (!response.ok) {
