@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { addCapivara } from '../api';
 import { TailSpin } from 'react-loader-spinner';
-import Modal from './Modal';  // Importando o componente Modal
+import Modal from './Modal';  
 
 const AddCapivara = ({ onAdd }) => {
     const [nome, setNome] = useState('');
@@ -42,7 +42,7 @@ const AddCapivara = ({ onAdd }) => {
             nome,
             idade,
             peso,
-            statusDeSaude: statusDeSaude || 'Saudável',  // Garantir que um valor padrão seja enviado
+            statusDeSaude: statusDeSaude || 'Saudável',  
             habitat,
             comportamento,
             dieta,
@@ -76,7 +76,7 @@ const AddCapivara = ({ onAdd }) => {
     };
 
     return (
-        <div className="w-full max-w-2xl mx-auto"> {/* Centralizando e limitando o tamanho */}
+        <div className="w-full max-w-2xl mx-auto"> 
             <form onSubmit={handleSubmit} className="bg-black text-white shadow-md rounded px-4 sm:px-6 py-6 sm:py-8 mb-4 text-center">
                 <h2 className="text-2xl font-bold text-blue-400 mb-4 text-center">Adicionar Capivara</h2>
                 {message && <p className="text-green-500 mb-4">{message}</p>}
