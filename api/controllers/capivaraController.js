@@ -1,6 +1,7 @@
 const mysql = require('mysql2');
 require('dotenv').config();
 
+
 const db = mysql.createConnection({
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
@@ -16,6 +17,7 @@ db.connect((err) => {
     console.log('Conectado ao MySQL');
 });
 
+
 // Função para listar capivaras
 const listarCapivaras = (req, res) => {
     db.query('SELECT * FROM capivaras', (err, results) => {
@@ -28,6 +30,7 @@ const listarCapivaras = (req, res) => {
         }
     });
 };
+
 
 // Função para adicionar uma capivara
 const adicionarCapivara = (req, res) => {
@@ -49,7 +52,6 @@ const adicionarCapivara = (req, res) => {
         res.status(201).json({ id: result.insertId, ...req.body });
     });
 };
-
 
 
 // Função para atualizar uma capivara
@@ -87,6 +89,7 @@ const removerCapivara = (req, res) => {
         }
     });
 };
+
 
 module.exports = {
     listarCapivaras,
