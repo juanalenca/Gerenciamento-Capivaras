@@ -45,7 +45,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 ### 1. Clone o repositório
 Clone o projeto para a sua máquina local usando o Git:
 ```bash
-git clone https://github.com/usuario/Gerenciamento-Capivaras.git
+git clone https://github.com/juanalenca/Gerenciamento-Capivaras.git
 ```
 ```bash
 cd Gerenciamento-Capivaras
