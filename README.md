@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Capivaras 🦫
+# Sistema de Gerenciamento de Capivaras 
 
 Este projeto é uma aplicação web para gerenciar capivaras, permitindo que você adicione, edite, liste e remova informações sobre essas adoráveis criaturas. O projeto é dividido em duas partes principais: a **API (backend)**, que lida com as operações no banco de dados, e o **Frontend (capivara-app)**, que é a interface do usuário.
 <br><br><br>
